@@ -8,8 +8,8 @@ Accept: application/json
  client.log(JSON.stringify(response.body));
  client.assert(response.status===200,"返回码不是200");
  client.assert(response.body==="Hello world!","结果验证失败");
-  });
-  %}}
+ });
+ %}}
 
 ###
 POST http://localhost:80/hello/post
