@@ -18,3 +18,7 @@ Content-Type: application/x-www-form-urlencoded
 name=winlong
 
 ###
+GET http://localhost:80/test/list
+Accept: application/json
+
+###
